@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
  s.source           = { :git => "https://github.com/navioffline/BaiduNaviSDK-iOS.git", :tag => "#{s.version}" }
 
  s.platform     = :ios
- s.ios.deployment_target =  '8.0'
+ s.ios.deployment_target =  '7.0'
  s.requires_arc = true
 
  s.source_files = 'BaiduNaviSDK/inc/*.{h,m}'
